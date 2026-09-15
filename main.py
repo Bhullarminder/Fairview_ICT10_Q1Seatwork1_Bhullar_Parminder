@@ -38,46 +38,46 @@ display("Days of the week", days)
 def adding_numbers(e):
     document.getElementById('result').innerHTML = " "  # clear the previous result
 
-    first_number = float(document.getElementById('num1').value)
-    second_number = float(document.getElementById('num2').value)
+    firstnum = float(document.getElementById('num1').value)
+    secondnum = float(document.getElementById('num2').value)
 
     # Adds the two numbers
     sum = first_number + second_number
 
-    display(f'The sum of {first_number} and {second_number} is {sum}', target='result')
+    display(f'The sum of {firstnum} and {secondnum} is {sum}', target='result')
 
 #- substraction
 def subtracting_numbers(e):
     document.getElementById('result').innerHTML = " "  # clear the previous result
 
-    first_number = float(document.getElementById('num1').value)
-    second_number = float(document.getElementById('num2').value)
+    firstnum = float(document.getElementById('num1').value)
+    secondnum = float(document.getElementById('num2').value)
 
     # Subtracts the second number from the first number
     difference = first_number - second_number
 
-    display(f'The difference of {first_number} and {second_number} is {difference}', target='result')
+    display(f'The difference of {firstnum} and {secondnum} is {difference}', target='result')
 
 #- Multiplication
 def multiplying_numbers(e):
     document.getElementById('result').innerHTML = " "  # clear the previous result
 
-    first_number = float(document.getElementById('num1').value)
-    second_number = float(document.getElementById('num2').value)
+    firstnum = float(document.getElementById('num1').value)
+    secondnum = float(document.getElementById('num2').value)
 
     # Multiplies the two numbers
     product = first_number * second_number
 
-    display(f'The product of {first_number} and {second_number} is {product}', target='result')
+    display(f'The product of {firstnum} and {secondnum} is {product}', target='result')
 
 #- Division
 def dividing_numbers(e):
     document.getElementById('result').innerHTML = " "  # clear the previous result
 
-    first_number = float(document.getElementById('num1').value)
-    second_number = float(document.getElementById('num2').value)
+    firstnum = float(document.getElementById('num1').value)
+    secondnum = float(document.getElementById('num2').value)
 
     # Divides the first number by the second number
-    quotient = first_number / second_number
+    quotient = firstnum / secondnum
 
-    display(f'The quotient of {first_number} and {second_number} is {quotient}', target='result')
+    display(f'The quotient of {firstnum} and {secondnum} is {quotient}', target='result')
