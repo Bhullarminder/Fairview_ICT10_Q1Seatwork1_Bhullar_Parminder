@@ -81,27 +81,3 @@ def dividing_numbers(e):
     quotient = first_number / second_number
 
     display(f'The quotient of {first_number} and {second_number} is {quotient}', target='result')
-
-
-def floor_dividing_numbers(e):
-    document.getElementById('result').innerHTML = " "  # clear the previous result
-
-    first_number = float(document.getElementById('num1').value)
-    second_number = float(document.getElementById('num2').value)
-
-    # Performs floor division and returns the whole-number result
-    result = first_number // second_number
-
-    display(f'{first_number} // {second_number} = {result}', target='result')
-
-
-def modulus_numbers(e):
-    document.getElementById('result').innerHTML = " "  # clear the previous result
-
-    first_number = float(document.getElementById('num1').value)
-    second_number = float(document.getElementById('num2').value)
-
-    # Finds the remainder after division
-    result = first_number % second_number
-
-    display(f'{first_number} % {second_number} = {result}', target='result')
